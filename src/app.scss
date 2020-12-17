@@ -416,6 +416,11 @@ section.info {
         background-size: 1240px 833px;
         background-position: top left calc((100vw - 1160px) / 2 + 683px);
         z-index: 2;
+
+        @include md {
+            background-size: 615px 413px;
+            background-position: bottom 20px left 97px;
+        }
     }
 
     .wrap {
@@ -460,6 +465,10 @@ section.info {
             .list {
                 display: flex;
                 flex-direction: column;
+
+                @include md {
+                    margin-bottom: 40px;
+                }
 
                 .item {
                     display: flex;

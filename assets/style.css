@@ -640,6 +640,13 @@ section.info::after {
   z-index: 2;
 }
 
+@media (max-width: 1200px) {
+  section.info::after {
+    background-size: 615px 413px;
+    background-position: bottom 20px left 97px;
+  }
+}
+
 section.info .wrap {
   position: relative;
   z-index: 3;
@@ -690,6 +697,12 @@ section.info .wrap .content .text {
 section.info .wrap .content .list {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  section.info .wrap .content .list {
+    margin-bottom: 40px;
+  }
 }
 
 section.info .wrap .content .list .item {

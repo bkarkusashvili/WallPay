@@ -56,6 +56,7 @@ section.landing {
 
     @include md {
         padding: 51px 0 33px;
+        background-size: 616px 415px;
     }
 
     .wrap {
@@ -197,6 +198,7 @@ section.landing {
                 grid-column: span 2;
                 grid-row: 1 / 2;
                 text-align: center;
+                margin-bottom: 46px;
             }
 
             img {
@@ -237,6 +239,7 @@ section.landing {
 
                     @include md {
                         width: 90px;
+                        right: 0;
                     }
                 }
             }
@@ -580,6 +583,7 @@ section.contact {
                 @include md {
                     width: 100%;
                     margin-bottom: 32px;
+                    padding-right: 15px;
                 }
 
                 &:nth-of-type(1) {
@@ -636,7 +640,8 @@ section.contact {
                         color: rgba(#ffffff, 0.6);
 
                         @include md {
-                            font-size: 22px;
+                            width: 100%;
+                            font-size: 20px;
                             line-height: 28px;
                         }
                     }
@@ -669,6 +674,7 @@ section.contact {
 
             @include md {
                 flex-direction: column;
+                align-items: flex-start;
             }
 
             .list {
@@ -689,6 +695,7 @@ section.contact {
                         align-items: center;
                         justify-content: center;
                         margin-right: 26px;
+                        flex-shrink: 0;
                         width: 44px;
                         height: 44px;
                         border-radius: 17px;

@@ -231,6 +231,7 @@ section.landing {
 @media (max-width: 1200px) {
   section.landing {
     padding: 51px 0 33px;
+    background-size: 616px 415px;
   }
 }
 
@@ -390,6 +391,7 @@ section.landing .wrap .media {
     grid-column: span 2;
     grid-row: 1/2;
     text-align: center;
+    margin-bottom: 46px;
   }
 }
 
@@ -440,6 +442,7 @@ section.landing .wrap .media img.money {
 @media (max-width: 1200px) {
   section.landing .wrap .media img.money {
     width: 90px;
+    right: 0;
   }
 }
 
@@ -826,6 +829,7 @@ section.contact .wrap > .list .item {
   section.contact .wrap > .list .item {
     width: 100%;
     margin-bottom: 32px;
+    padding-right: 15px;
   }
 }
 
@@ -883,7 +887,8 @@ section.contact .wrap > .list .item div p {
 
 @media (max-width: 1200px) {
   section.contact .wrap > .list .item div p {
-    font-size: 22px;
+    width: 100%;
+    font-size: 20px;
     line-height: 28px;
   }
 }
@@ -919,6 +924,7 @@ section.contact .wrap .info {
 @media (max-width: 1200px) {
   section.contact .wrap .info {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -942,6 +948,7 @@ section.contact .wrap .info .list .item figure {
   align-items: center;
   justify-content: center;
   margin-right: 26px;
+  flex-shrink: 0;
   width: 44px;
   height: 44px;
   border-radius: 17px;

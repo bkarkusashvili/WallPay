@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="83" viewBox="0 0 70 83">
+    <defs>
+        <linearGradient id="kccocn65pa" x1="50%" x2="50%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+            <stop offset="100%" stop-opacity=".8"/>
+        </linearGradient>
+        <linearGradient id="b9oz0mav4b" x1="49.996%" x2="49.996%" y1="100%" y2="0%">
+            <stop offset="0%" stop-opacity=".8"/>
+            <stop offset="100%" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="fbggtd320c" x1="49.998%" x2="41.599%" y1="95.401%" y2="4.656%">
+            <stop offset="0%" stop-opacity=".5"/>
+            <stop offset="100%" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <g>
+                <g transform="translate(-572 -3479) translate(543 3437) translate(29 42)">
+                    <circle cx="34.98" cy="47.17" r="34.98" fill="#4382FF" opacity=".108"/>
+                    <path fill="#4382FF" d="M12.514 4.925L62.436 4.925 62.436 54.465 12.514 54.465z" transform="rotate(-12.82 37.475 29.695)"/>
+                    <path fill="url(#kccocn65pa)" style="mix-blend-mode:soft-light" d="M13.062 9.798L19.072 9.798 19.072 59.338 13.062 59.338z" transform="rotate(-12.82 16.067 34.568)"/>
+                    <path fill="url(#b9oz0mav4b)" style="mix-blend-mode:soft-light" d="M25.394 3.482L62.272 3.482 62.272 53.022 25.394 53.022z" transform="rotate(-12.82 43.833 28.252)"/>
+                    <path fill="url(#fbggtd320c)" d="M56.326 0L67.32 48.307l-21.65 4.926c3.288-11.288 5.645-26.047 3.278-42.769-.42-2.93-.954-5.756-1.58-8.426L56.327 0z" style="mix-blend-mode:soft-light"/>
+                    <circle fill="#000" style="mix-blend-mode:soft-light" cx="32.623" cy="12.252" r="2.233"/>
+                    <circle fill="#000" style="mix-blend-mode:soft-light" cx="48.069" cy="8.735" r="2.233"/>
+                    <path fill="#FFF" d="M44.432 28.443c-4.955 1.122-9.885-1.979-11.018-6.932l-1.758-7.723c-.157-.691.276-1.379.967-1.536.692-.158 1.38.275 1.537.967l1.758 7.722c.85 3.528 4.377 5.72 7.916 4.918 3.54-.802 5.779-4.298 5.026-7.848l-1.758-7.723c-.157-.691.275-1.379.967-1.536.691-.158 1.38.275 1.537.967l1.758 7.722c1.112 4.95-1.987 9.869-6.932 11.002z"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -305,9 +305,10 @@ section.landing .wrap .info a.btn {
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
-  box-shadow: 0 5px 37px 3px rgba(0, 161, 217, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
   border: 1px solid #258aff;
   margin-bottom: 44px;
+  -webkit-animation: pulse 1.5s infinite ease-in-out;
+          animation: pulse 1.5s infinite ease-in-out;
 }
 
 @media (max-width: 1200px) {
@@ -566,6 +567,12 @@ section.alert .wrap a {
   line-height: normal;
   text-decoration: none;
   color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+section.alert .wrap a:hover {
+  background-color: #ffffff;
+  color: #00a4db;
 }
 
 @media (max-width: 1200px) {
@@ -1066,6 +1073,34 @@ section.contact .wrap .info .map iframe {
 @media (max-width: 1200px) {
   .text {
     font-size: 16px;
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 5px 37px 0px rgba(0, 161, 217, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 5px 37px 10px rgba(0, 161, 217, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
+  }
+
+  100% {
+    box-shadow: 0 5px 37px 0px rgba(0, 161, 217, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 5px 37px 0px rgba(0, 161, 217, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 5px 37px 10px rgba(0, 161, 217, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
+  }
+
+  100% {
+    box-shadow: 0 5px 37px 0px rgba(0, 161, 217, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
   }
 }
 

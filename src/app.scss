@@ -121,9 +121,10 @@ section.landing {
                 font-size: 18px;
                 font-weight: bold;
                 color: #ffffff;
-                box-shadow: 0 5px 37px 3px rgba(#00a1d9, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
+                // box-shadow: 0 5px 37px 3px rgba(#00a1d9, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
                 border: 1px solid #258aff;
                 margin-bottom: 44px;
+                animation: pulse 1.5s infinite ease-in-out;
 
                 @include md {
                     width: 100%;
@@ -351,6 +352,12 @@ section.alert {
             line-height: normal;
             text-decoration: none;
             color: #ffffff;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                background-color: #ffffff;
+                color: #00a4db;
+            }
 
             @include md {
                 width: 100%;
@@ -808,5 +815,17 @@ section.contact {
 
     @include md {
         font-size: 16px;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 5px 37px 0px rgba(#00a1d9, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
+    }
+    50% {
+        box-shadow: 0 5px 37px 10px rgba(#00a1d9, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
+    }
+    100% {
+        box-shadow: 0 5px 37px 0px rgba(#00a1d9, 0.4), inset 0 0 35px -10px rgba(1, 209, 210, 0.3);
     }
 }

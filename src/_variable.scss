@@ -1,3 +1,9 @@
 @mixin useCaps {
     font-feature-settings: "case" 1;
 }
+
+@mixin md {
+    @media (max-width: 1200px) {
+        @content;
+    }
+}

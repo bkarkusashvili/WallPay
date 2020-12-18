@@ -200,6 +200,16 @@ section.landing {
                 grid-row: 1 / 2;
                 text-align: center;
                 margin-bottom: 46px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .media-wrap {
+                position: relative;
+
+                @include md {
+                    width: 97px;
+                }
             }
 
             img {
@@ -220,7 +230,7 @@ section.landing {
 
                     @include md {
                         top: 126px;
-                        right: 68px;
+                        right: -48px;
                         width: 147px;
                     }
                 }
@@ -230,7 +240,9 @@ section.landing {
                     top: 223px;
 
                     @include md {
-                        width: 71px;
+                        width: 88px;
+                        left: -104px;
+                        top: 99px;
                     }
                 }
 
@@ -239,8 +251,9 @@ section.landing {
                     right: -155px;
 
                     @include md {
-                        width: 90px;
-                        right: 0;
+                        width: 100px;
+                        top: -15px;
+                        right: -104px;
                     }
                 }
             }

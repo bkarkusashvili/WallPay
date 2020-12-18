@@ -393,6 +393,18 @@ section.landing .wrap .media {
     grid-row: 1/2;
     text-align: center;
     margin-bottom: 46px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+section.landing .wrap .media .media-wrap {
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+  section.landing .wrap .media .media-wrap {
+    width: 97px;
   }
 }
 
@@ -419,7 +431,7 @@ section.landing .wrap .media img.card {
 @media (max-width: 1200px) {
   section.landing .wrap .media img.card {
     top: 126px;
-    right: 68px;
+    right: -48px;
     width: 147px;
   }
 }
@@ -431,7 +443,9 @@ section.landing .wrap .media img.gift {
 
 @media (max-width: 1200px) {
   section.landing .wrap .media img.gift {
-    width: 71px;
+    width: 88px;
+    left: -104px;
+    top: 99px;
   }
 }
 
@@ -442,8 +456,9 @@ section.landing .wrap .media img.money {
 
 @media (max-width: 1200px) {
   section.landing .wrap .media img.money {
-    width: 90px;
-    right: 0;
+    width: 100px;
+    top: -15px;
+    right: -104px;
   }
 }
 

@@ -225,7 +225,7 @@ section.landing {
   background-image: url(./images/w_B.svg?4867e2729d5a4d0fb40c9b3839315e7e);
   background-position: top center;
   background-repeat: no-repeat;
-  padding: 92px 0 159px;
+  padding: 51px 0 159px;
 }
 
 @media (max-width: 1200px) {
@@ -262,18 +262,14 @@ section.landing .wrap .info {
   }
 }
 
-section.landing .wrap .info a.scroll {
-  position: absolute;
-  bottom: 120px;
-  right: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background-image: linear-gradient(134deg, #00cfee 13%, #00cfee 13%, #00a4db 52%, #00a1d9 98%);
-  text-decoration: none;
+section.landing .wrap .info .evro {
+  margin-bottom: 14px;
+}
+
+@media (max-width: 1200px) {
+  section.landing .wrap .info .evro {
+    margin-bottom: 10px;
+  }
 }
 
 section.landing .wrap .info h1 {
@@ -385,6 +381,7 @@ section.landing .wrap .media {
   position: relative;
   grid-column: 9/12;
   text-align: end;
+  padding-top: 40px;
 }
 
 @media (max-width: 1200px) {
@@ -392,9 +389,10 @@ section.landing .wrap .media {
     grid-column: span 2;
     grid-row: 1/2;
     text-align: center;
-    margin-bottom: 46px;
+    margin-bottom: 5px;
     display: flex;
     justify-content: center;
+    padding-top: 0;
   }
 }
 

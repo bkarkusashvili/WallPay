@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="71" viewBox="0 0 78 71">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-971 -3491) translate(949 3437) translate(22 54.19)">
+                        <circle cx="42.98" cy="34.98" r="34.98" fill="#4382FF" fill-rule="nonzero" opacity=".108"/>
+                        <text fill="#285FFF" font-family="Helvetica-Bold, Helvetica" font-size="27" font-weight="bold" letter-spacing="-.675">
+                            <tspan x="0" y="35.81">ATM</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -227,6 +227,9 @@ section.landing {
                 &.card {
                     top: 284px;
                     right: -57px;
+                    background: transparent;
+                    border: none;
+                    outline: none;
 
                     @include md {
                         top: 126px;
@@ -759,6 +762,128 @@ section.contact {
                 }
             }
         }
+    }
+}
+
+.modal-dialog {
+    max-width: 561px;
+    margin-top: 224px;
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        margin: 120px 15px 0;
+    }
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-open .modal {
+    padding-right: 0 !important;
+}
+
+#modal {
+    .modal-content {
+        width: 561px;
+        padding: 40px 30px 40px 40px;
+        border-radius: 26px;
+        background-image: linear-gradient(93deg, #227eeb -23%, #258aff 3%, #00a4db 51%, #00a1d9 110%);
+
+        @include md {
+            width: 100%;
+            padding: 40px 20px 53px 20px;
+        }
+    }
+
+    .close {
+        position: absolute;
+        top: -58px;
+        right: 0;
+        cursor: pointer;
+        width: 44px;
+        height: 44px;
+        border-radius: 17px;
+        border: 1px solid #ffffff;
+        background-color: rgba(255, 255, 255, 0.07);
+        background-image: url(./images/x.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 1;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+
+        .apps {
+            display: flex;
+            margin-bottom: 47px;
+
+            @include md {
+                margin-bottom: 35px;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 71px;
+                height: 71px;
+                border: 1px solid rgba(255, 255, 255, 0.19);
+                margin-right: 29px;
+                border-radius: 50%;
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 47px;
+
+            &:first-of-type {
+                margin-bottom: 37px;
+            }
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            i {
+                width: 44px;
+                height: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+                margin-right: 18px;
+                border-radius: 17px;
+                border: solid 1px #ffffff;
+                background-color: rgba(255, 255, 255, 0.07);
+                color: #ffffff;
+                font-weight: bold;
+            }
+
+            span {
+                font-size: 22px;
+                font-weight: 300;
+                color: #ffffff;
+
+                @include md {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .modal-body {
+        display: flex;
+        position: initial;
     }
 }
 

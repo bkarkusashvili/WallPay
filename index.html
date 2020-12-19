@@ -8,8 +8,19 @@
     <title>WallPay</title>
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
@@ -19,7 +30,7 @@
             <a href="" class="logo">
                 <img src="./assets/images/logo.png" alt="WallPay">
             </a>
-            <a href="" class="btn">მოითხოვე ახლავე</a>
+            <a href="" class="btn" data-toggle="modal" data-target="#modal">მოითხოვე ახლავე</a>
         </div>
     </header>
     <section class="landing">
@@ -28,7 +39,7 @@
                 <h1 class="title">გიორგი მიიღე შენი წინასწარ დამტკიცებული <br /><strong>50 000₾</strong> ევროკრედიტისგან
                 </h1>
                 <p class="text">ვოლიფეის ბარათზე <br />ეფექტური საპროცენტო განაკვეთი 12 დან</p>
-                <a href="" class="btn">მოითხოვე ახლავე</a>
+                <a href="" class="btn" data-toggle="modal" data-target="#modal">მოითხოვე ახლავე</a>
                 <div class="num-list">
                     <div class="item">
                         <i>1</i>
@@ -54,9 +65,6 @@
                         </a>
                     </div>
                 </div>
-                <!-- <a href="" class="scroll">
-                    <img src="./assets/images/arrow_down.svg" alt="Arrow Down">
-                </a> -->
             </div>
             <div class="media">
                 <div class="media-wrap">
@@ -100,7 +108,7 @@
     <section class="alert">
         <div class="wrap" data-aos="fade-up" data-aos-duration="1800">
             <h2 class="title">სპეციალური შეთავაზება შენთვის!</h2>
-            <a href="">მოითხოვე ახლავე</a>
+            <a href="" data-toggle="modal" data-target="#modal">მოითხოვე ახლავე</a>
             <img src="./assets/images/alertG.png" alt="Alert">
         </div>
     </section>
@@ -168,7 +176,7 @@
                 </div>
                 <div class="item">
                     <figure>
-                        <img src="./assets/images/light_bulb.svg" alt="Light Bulb">
+                        <img src="./assets/images/atm.svg" alt="ATM">
                     </figure>
                     <div>
                         <span>12 000</span>
@@ -207,6 +215,39 @@
             </div>
         </div>
     </section>
+
+    <div class="modal fade" id="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button data-dismiss="modal" class="close"></button>
+                    <div class="list">
+                        <div class="item">
+                            <i>1</i>
+                            <span>გადმოწერე აპლიკაცია</span>
+                        </div>
+                        <div class="apps">
+                            <a href="">
+                                <img src="./assets/images/ios.svg" alt="IOS">
+                            </a>
+                            <a href="">
+                                <img src="./assets/images/android.svg" alt="Android">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <i>2</i>
+                            <span>მოითხოვე ბარათი აპლიკაციიდანვე</span>
+                        </div>
+                        <div class="item">
+                            <i>3</i>
+                            <span>მიიღე თანხა მომენტალურად</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
         AOS.init();
     </script>
